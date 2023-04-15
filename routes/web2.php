@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 //dengan controller
-Route::get('/', [FoodController::class, 'food'] );
+Route::get('/', [FoodController::class, ''] );
 
+// Route::get('/kampus', function(){
+//     return view ('kampus');
+// });

@@ -7,12 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Selamat Makan</h1>
-    @foreach ($data as $food )
+    <h1>Buah Melon</h1>
     
-    <h2>{{$food['title']}}</h2>
-
-    @endforeach
 </body>
-
 </html>
